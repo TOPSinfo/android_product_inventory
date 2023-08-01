@@ -87,4 +87,4 @@ Jitsi:- https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-android-sdk/
 
 # media:
 
-![](https://github.com/TOPSinfo/android_product_inventory/blob/master/media/product_inventory.gif)
+![](https://github.com/TOPSinfo/android_product_inventory/blob/main/media/product_inventory.gif)
