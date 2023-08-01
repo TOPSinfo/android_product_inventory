@@ -1,6 +1,10 @@
 # Kotlin - Product Inventory
 This repository is a demonstration of a booking system for users that includes features such as the ability to book an dealer based on their speciality, as well as the ability to chat and video call with them.
 
+# Media:
+
+![](https://github.com/TOPSinfo/android_product_inventory/blob/main/media/product_inventory.gif)
+
 # Description
 
 In the Welcome screen, You have two options for user application. You can continue as Dealer or you can continue as user. User can login or register mobile number.
@@ -85,6 +89,4 @@ In the Chat screen, users can chat with dealer by sending Text, images, and vide
 
 Jitsi:- https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-android-sdk/
 
-# media:
 
-![](https://github.com/TOPSinfo/android_product_inventory/blob/main/media/product_inventory.gif)
