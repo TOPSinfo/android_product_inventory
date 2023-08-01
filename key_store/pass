@@ -1,0 +1,7 @@
+pass : productInventory@123
+Key alias :productInventory
+
+// face book release key
+1 . keytool -exportcert -alias productInventory -keystore /home/tops/AndroidStudioProjects/Product_Inventory/productInventory.jks | openssl sha1 -binary | openssl base64
+2.keytool -exportcert -alias productInventory -keystore /home/tops/AndroidStudioProjects/Product_Inventory | openssl sha1 -binary | openssl base64
+

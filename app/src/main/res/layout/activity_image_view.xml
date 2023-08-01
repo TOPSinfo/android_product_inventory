@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color"
+    android:orientation="vertical">
+
+    <com.productinventory.utils.ZoomImageView
+        android:id="@+id/imgView"
+        android:layout_below="@+id/imgBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+<!--
+    <com.productinventory.utils.TouchImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name" />
+-->
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgBack"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_10ssp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/_7sdp"
+        android:tint="@color/text_disables"
+        android:src="@drawable/ic_close" />
+
+</RelativeLayout>

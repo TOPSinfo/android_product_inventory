@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="user_theme">#02569D</color>
+    <color name="dealer_theme">#F55446</color>
+    <color name="txt_header">#2C3840</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="swipe_img_indicatior">#B3CCE2</color>
+    <color name="user_login_ic_bg">#27AAE1</color>
+
+    <color name="chat_my_color">#E1FFC7</color>
+    <color name="login_phone_ic">#F3F3F3</color>
+
+    <color name="edittext_bg">#E4E4E4</color>
+    <color name="edittext_hint">#D1D1D1</color>
+
+    <color name="edittext_border">#EBEBEB</color>
+    <color name="text_color">#000000</color>
+
+    <color name="text_disables">#999999</color>
+    <color name="border_rect_oval">#DCDCDC</color>
+    <color name="user_otp_square_border">#E1F3FF</color>
+
+    <color name="otp_bg">#E1F3FF</color>
+    <color name="completed_status">#80C181</color>
+    <color name="pending_status">#F1A341</color>
+    <color name="delete_status">#BC2626</color>
+    <color name="approve_status">#02569D</color>
+    <color name="reject_status">#02569D</color>
+
+    <color name="delaer_otp_squre_bg">#FFE6E0</color>
+    <color name="booking_listing_bg">#FAFAFA</color>
+    <color name="chat_bg">#F7F5F5</color>
+    <color name="trans_colors">#00000000</color>
+
+    <color name="user_login_ic">#80BFEA</color>
+    <color name="accept_btn">#029D08</color>
+    <color name="dealer_rupee_color">#F06649</color>
+    <color name="dealer_login_ic">#FF5353</color>
+    <color name="fb_icon">#27AAE1</color>
+
+    <!--notification color-->
+    <color name="notification_label">#999999</color>
+    <color name="notification_name">#000000</color>
+
+</resources>

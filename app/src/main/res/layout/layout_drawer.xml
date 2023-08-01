@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/user_theme"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_20sdp">
+
+    <FrameLayout
+        android:id="@+id/dwClosed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:padding="@dimen/_14sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgClosed"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_close" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_14sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgUser"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_placeholder_user" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_55sdp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtName"
+                style="@style/fontSemiBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                tools:text="Vikas patel" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtPhoneNumber"
+                style="@style/fontRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                tools:text="7709220125" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dwInbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="@dimen/_14sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_home" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/fontRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_33sdp"
+            android:text="@string/home"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/drtxtChatCount"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:paddingEnd="@dimen/_3sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8sdp"
+            android:visibility="gone"
+            tools:text="+25" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dwBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_calender" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/fontRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_33sdp"
+            android:text="My Booking"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dwWishList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_wishlist" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/fontRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_33sdp"
+            android:text="My WishList"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dwWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_calender" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/fontRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_33sdp"
+            android:text="@string/wallet"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dwProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_profile" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/fontRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_33sdp"
+            android:text="@string/my_profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dwHelpCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_help_center" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/fontRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_33sdp"
+            android:text="Help Center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/dwLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="@dimen/_3sdp"
+            android:src="@drawable/ic_logout" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/fontRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/_33sdp"
+            android:text="@string/log_out"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </FrameLayout>
+
+</LinearLayout>
