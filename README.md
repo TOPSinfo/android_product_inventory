@@ -1,5 +1,6 @@
 # Kotlin - Product Inventory
-This repository is a demonstration of a booking system for users that includes features such as the ability to book an dealer based on their speciality, as well as the ability to chat and video call with them.
+
+This repository is user-friendly and efficient mobile application that allows users to book appointments with dealers for product demonstrations. Whether you want a demo for the latest gadgets, new home appliances, this app will simplify the appointment booking process and ensure a smooth experience.
 
 # Media
 
@@ -7,7 +8,7 @@ This repository is a demonstration of a booking system for users that includes f
 
 # Description
 
-In the Welcome screen, You have two options for user application. You can continue as Dealer or you can continue as user. User can login or register mobile number.
+In the Welcome screen, You have two options in application, Where you can continue as Dealer or you can continue as User. User and Dealers can login or register mobile number.
 
 ##### User Type : Dealer
 
@@ -17,7 +18,7 @@ In the Products Screen, the dealer can add products with description, image, pri
 
 In the Appointments Screen, the dealer can see all their Upcoming, Ongoing and Past booking done by the user.
 
-In the Booking Detail screen, users can see all the details of booking and also initiate a chat and video call(one-to-one) with an astrologer.
+In the Booking Detail screen, Dealers can see all the details of booking and also initiate a chat and video call(one-to-one) with an User.
 
 In the Chat screen, a dealer can chat with the user by sending Text, images, and video. Also, the user can initiate a video call(one-to-one) from here.
 
@@ -56,7 +57,7 @@ In the Chat screen, users can chat with dealer by sending Text, images, and vide
 - Welcome UI: It will provide option to select user type (Dealer and User)
 - Login UI: It will validate phone number and verify otp and redirect to Dashboard to appropriate user type
 - Registration UI: It will collect user data and redirect to Dashboard to appropriate user type
-- Dashboard UI: It will display a list of booking for astrologer and list of astrologer for user
+- Dashboard UI: It will display a list of booking for Dealer and list of Dealer for user
 - Create Booking UI: It will collect user data and create a new booking.
 - Booking List UI: It will list the booking.
 - Booking Detail UI: It will display details of a particular booking.
